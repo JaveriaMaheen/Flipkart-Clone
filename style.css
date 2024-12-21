@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: gray;
+}
+header{
+    width: 99vw;
+    height: 60px;
+    background-color: transparent;
+}
+.flipkartlogo{
+    position: relative;
+    top: 10px;
+}
+.searchimg{
+    position: relative;
+    left: 228px;
+    bottom: 25px;
+}
+#searchbar{
+    height: 40px;
+    width: 650px;
+    background: transparent;
+    border-radius: 7px;
+    border: 1px solid grey;
+    font-size: larger;
+}
+.bar{
+    position: relative;
+    left:220px;
+    bottom: 55px;
+}
+.userpic{
+    position: relative;
+    bottom: 97px;
+    left:900px
+}
+.login{
+    font-size: 16px;
+    position: relative;
+    bottom: 136px;
+    left: 930px;
+    font-family: sans-serif;
+}
+.cartimage{
+    position: relative;
+    bottom: 170px;
+    left: 1030px;
+}
+.more2{
+    position: relative;
+    bottom:290px;
+    left: 1350px;
+}
+.cart{
+    font-size: 16px;
+    position: relative;
+    bottom: 203px;
+    left: 1062px;
+    font-family: sans-serif;
+}
+.store{
+    position: relative;
+    bottom: 235px;
+    left: 1140px;
+}
+.storecontent{
+    font-size: 16px;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 265px;
+    left: 1170px;
+}
+.plane{
+    height: 200px;
+    width: 80px;
+    position: relative;
+    bottom: 1425px;
+    left: 1200px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+.hover-button {
+   
+    font-size: 16px;
+    color: black;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hover-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.gridcontainer{
+    height: 120px;
+    width: 99vw;
+    background-color: transparent;
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(9,60px);
+    top: 6px;
+    width: 98.5vw;
+    position: relative;
+    left: 10px;
+}
+.image1{
+    bottom: 50px;
+    position: relative;
+    top: 11px;
+    left: 116px;
+}
+.text{
+    position: relative;
+    top: 80px;
+    left: 66px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.image2{
+    bottom: 50px;
+    position: relative;
+    top: 11px;
+    left: 130px;
+}
+.text2{
+    position: relative;
+    top: 80px;
+    left: 84px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.image3{
+    position: relative;
+    top: 10px;
+    left: 170px;
+}
+.text3{
+    position: relative;
+    top: 80px;
+    left: 115px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.image4{
+    position: relative;
+    top: 20px;
+    left: 184px;
+}
+.text4{
+    position: relative;
+    top: 80px;
+    left: 120px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.image5{
+    position: relative;
+    top: 20px;
+    left: 220px;
+}
+.text5{
+    position: relative;
+    top: 10px;
+    left: 672px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.image6{
+    bottom: 50px;
+    position: relative;
+    left: 774px;
+}
+.text6{
+    position: relative;
+    top: 10px;
+    left: 714px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.image7{
+    bottom: 52px;
+    position: relative;
+  
+    left: 792px;
+}
+.text7{
+    position: relative;
+    top: 10px;
+    left: 720px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.image8{
+    bottom: 50px;
+    position: relative;
+    left: 814px;
+}
+.text8{
+    position: relative;
+    top: 10px;
+    left: 740px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.image9{
+    bottom: 50px;
+    position: relative;
+    left: 870px;
+}
+.text9{
+    position: relative;
+    top: 10px;
+    left: 800px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+}
+#carouselExampleSlidesOnly{
+    height: 10200px;
+    width: 99vw;
+    position: relative;
+    top: 4px;
+}
+.box{
+    height: 340px;
+    width: 83vw;
+    background-color: transparent;
+    position: relative;
+    top: 280px;
+    left: 10px;
+}
+.text10{
+    position: relative;
+    top: 18px;
+    left: 25px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+}
+.angle{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 1150px;
+    bottom: 42px;
+    background-color: #0056b3;
+    border-radius: 50%;
+    text-align: center;
+}
+.childbox{
+    height: 270px;
+    width: 180px;
+    background-color: transparent;
+    position: relative;
+    left: 30px;
+    border: 3px solid gainsboro;
+    border-radius: 10px;
+    bottom: 40px;
+}
+.childbox1{
+    position:relative;
+    left: 20px;
+    top: 10px;
+}
+.childboxa{
+    height: 270px;
+    width: 180px;
+    background-color:transparent;
+    position: relative;
+    left: 250px;
+    border: 3px solid gainsboro;
+    border-radius: 10px;
+    bottom: 310px;
+    justify-content: center;
+}
+.pic2{
+   position: relative;
+   top: 5px;
+   left: 10px;
+}
+.childboxb{
+    height: 270px;
+    width: 180px;
+    background-color: transparent;
+    position: relative;
+    left: 470px;
+    border: 3px solid gainsboro;
+    border-radius: 10px;
+    bottom: 580px;
+}
+.pic3{
+    position: relative;
+    top: 10px;
+    left: 20px;
+
+}
+.real1{
+    position: relative;
+    left: 17px;
+    top: 6px;
+}
+.price1{
+    position: relative;
+    left: 15px;
+    bottom: 5px;
+}
+.real{
+    position: relative;
+    top: 12px;
+    text-align: center;
+}
+.price{
+    text-align: center;
+}
+
+.childboxc{
+    height: 270px;
+    width: 180px;
+    background-color: transparent;
+    position: relative;
+    left: 680px;
+    bottom: 850px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.pic4{
+    position: relative;
+    top: 10px;
+    left: 20px;
+
+}
+.childboxd{
+    height: 270px;
+    width: 180px;
+    background-color: transparent;
+    position: relative;
+    left: 900px;
+    bottom: 1120px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.pic5{
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+}
